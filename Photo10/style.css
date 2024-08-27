@@ -4,11 +4,10 @@
     background-color: #f0f0f0;
     display: grid;
     /* grid-template-columns: repeat(6,200px); */
-    grid-template-areas:
+    grid-template-areas: 'box1 box box box box box '
         'box1 box box box box box '
-        'box1 box box box box box '
-        "box1 box box box box box " cvdnghjkulk.m,mbv
-        
+        "box1 box box box box box "
+}
 
 .box {
     grid-area: box;
@@ -18,5 +17,3 @@
 .box1 {
     grid-area: box1;
 }
-
-.box2
