@@ -1,0 +1,9 @@
+.grid{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.box{
+border: 5px solid aqua;}
