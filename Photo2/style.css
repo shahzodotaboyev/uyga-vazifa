@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    width: 670px;
+    height: auto;
+    grid-template-columns: repeat(3, 200px);
+    background-color: lightblue;
+    grid-template-rows: repeat(3, 200px);
+    gap: 30px;
+    grid-template-areas:
+        "box box box"
+        "box box box"
+
+    ;
+
+
+    padding: 20px;
+
+}
+
+.box {
+    background: #fff;
+}
+
+@media (max-width:600px) {
+    .grid {
+        width: auto;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows: repeat(2, 100px);
+        grid-template-rows:
+            "box box box box"
+            "box box box box";
+    }
+}
